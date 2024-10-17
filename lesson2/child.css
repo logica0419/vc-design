@@ -1,0 +1,27 @@
+body {
+  background-image: url(https://okhotsk.work/wp-content/uploads/2021/12/shutterstock_772489252.jpg);
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+}
+
+a {
+  color: darkcyan;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid cadetblue;
+  border-radius: 20px;
+}
+
+.title {
+  text-align: center;
+  text-decoration: underline dotted;
+}
+
+.professor {
+  text-align: center;
+  color: red;
+}
