@@ -1,11 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ケーキ屋さんサンプル</title>
+    <title>ケーク</title>
   </head>
-  <body>
-    <img src="images/logo.svg" alt="ケーキ屋さん" />
+  <body style="background-color: rgb(61, 61, 61); color: white">
+    <header>
+      <div style="display: flex; padding-left: 5%">
+        <img
+          src="images/logo.svg"
+          alt="logo"
+          style="width: 75px; margin-right: 20px" />
+        <h1>ケーク</h1>
+      </div>
+      <hr
+        style="
+          background-color: white;
+          height: 2px;
+          width: 95%;
+          margin-bottom: 10px;
+        " />
+    </header>
+
+    <image
+      src="images/shop.jpg"
+      alt="shop"
+      style="display: block; width: 90%; margin: auto" />
+    <div style="margin: 20px 10%; text-align: center">
+      <h2>洋菓子専門店「ケーク」</h2>
+      <h3>大阪 阿倍野 帝塚山</h3>
+      ケーキハウス「ケーク」へようこそ<br />
+      このサイトでは、人気のケーキを紹介します。<br />
+      <br />
+      いらっしゃいませ<br />
+      甘いものを食べると、脳のなかで｢幸せホルモン｣といわれるセロトニンが増えていると考えられています。
+    </div>
+
+    <h1 style="margin: 50px 7.5% 20px">商品一覧</h1>
+    <div style="display: block; width: 90%; margin: auto">
+      <div
+        style="
+          display: grid;
+          place-content: center;
+          justify-items: center;
+          grid-template-columns: 1fr 1fr;
+          column-gap: 30px;
+          row-gap: 2em;
+        ">
+        <div style="text-align: center">
+          <img
+            src="images/cake01.jpg"
+            alt="cake1"
+            style="width: 100%; margin-bottom: 10px" />
+          <h2>ショートケーキ</h2>
+          <p>
+            イチゴがのった一番人気のスポンジケーキです。大人から子供まで、年中愛されるケーキです。
+          </p>
+        </div>
+        <div style="text-align: center">
+          <img
+            src="images/cake02.jpg"
+            alt="cake2"
+            style="width: 100%; margin-bottom: 10px" />
+          <h2>モンブラン</h2>
+          <p>栗をふんだんに使ったケーキです。様々な形状があります。</p>
+        </div>
+        <div style="text-align: center">
+          <img
+            src="images/cake03.jpg"
+            alt="cake3"
+            style="width: 100%; margin-bottom: 10px" />
+          <h2>ザッハトルテ</h2>
+          <p>こってりとしたチョコレートの濃厚な味わい</p>
+        </div>
+        <div style="text-align: center">
+          <img
+            src="images/cake04.jpg"
+            alt="cake4"
+            style="width: 100%; margin-bottom: 10px" />
+          <h2>シュークリーム</h2>
+          <p>サクサク生地と濃厚クリームは相性抜群</p>
+        </div>
+      </div>
+    </div>
+
+    <footer
+      style="
+        text-decoration: underline;
+        text-align: center;
+        padding: 3rem 0;
+        color: rgb(177, 177, 177);
+      ">
+      Copyright ケーキハウス Co.,Ltd. All Rights Reserved.
+    </footer>
   </body>
 </html>
